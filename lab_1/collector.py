@@ -29,7 +29,7 @@ def parse_tables(tables, level, fd):
         for tr in table[0][1:]:
             if skip_speciality == 0:
                 skip_speciality = int(tr[0].get("rowspan", 1))
-                cur_speciality = map(get_text, tr[:2])
+                cur_speciality = list(map(get_text, tr[:2]))
                 skip_department = int(tr[2].get("rowspan", 1))
                 cur_department = get_text(tr[2])
                 fd.writerow([*cur_speciality, cur_department, level])
