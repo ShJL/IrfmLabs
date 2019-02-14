@@ -45,10 +45,11 @@ baccalaureate, speciality = html5lib.parse(get_request(URL))[1].iter(tag_name("t
 magistracy = html5lib.parse(get_request(URL + MAGISTRACY))[1].iter(tag_name("table"))
 postgraduate = html5lib.parse(get_request(URL + POSTGRADUATE))[1].iter(tag_name("table"))
 
-
-with open("specialities.csv", "w", encoding="utf-8", newline='') as f:
+with open("specialities.csv", "w", encoding="utf-8", newline="") as f:
     writer = csv.writer(f, delimiter=";")
+    writer.writerow(["Code", "Name", "Department", "Level"])
     parse_tables([baccalaureate], "Бакалавриат", writer)
     parse_tables([speciality], "Специалитет", writer)
     parse_tables(magistracy, "Магистратура", writer)
     parse_tables(postgraduate, "Аспирантура", writer)
+

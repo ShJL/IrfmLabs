@@ -1,0 +1,18 @@
+{
+    "Code": {
+        "MaxLen": 8,
+        "Restriction": "NOT NULL"
+    },
+    "Name": {
+        "MaxLen": 75,
+        "Restriction": "NOT NULL"
+    },
+    "Department": {
+        "MaxLen": 64,
+        "Restriction": "NOT NULL"
+    },
+    "Level": {
+        "MaxLen": 12,
+        "Restriction": "NOT NULL"
+    }
+}
