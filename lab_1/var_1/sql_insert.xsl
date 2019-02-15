@@ -22,7 +22,7 @@
                     </xsl:for-each>
                 </dd>
             ) values (
-                <xsl:for-each select="./*[position()>1]">
+                <xsl:for-each select="./*[position() > 1]">
                     <dd>
                         <xsl:if test="@type = 'string' or not(@type)">'</xsl:if>
                         <xsl:value-of select="."/>
