@@ -2,702 +2,819 @@
 <?xml-stylesheet type='text/xsl' href='sql_insert.xsl'?>
 <specialities>
   <speciality>
+    <id>1</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>2</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>3</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>4</id>
     <code>01.03.02</code>
     <name>Прикладная математика и информатика</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>5</id>
     <code>03.03.01</code>
     <name>Прикладные математика и физика</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>6</id>
     <code>03.03.01</code>
     <name>Прикладные математика и физика</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>7</id>
     <code>03.03.02</code>
     <name>Физика</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>8</id>
     <code>04.03.01</code>
     <name>Химия</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>9</id>
     <code>04.03.02</code>
     <name>Химия, физика и механика материалов</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>10</id>
     <code>06.03.01</code>
     <name>Биология</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>11</id>
     <code>09.03.01</code>
     <name>Информатика и вычислительная техника</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>12</id>
     <code>09.03.04</code>
     <name>Программная инженерия</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>13</id>
     <code>10.03.01</code>
     <name>Информационная безопасность</name>
     <department>Инновационные технологии компьютерной безопасности</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>14</id>
     <code>10.03.01</code>
     <name>Информационная безопасность</name>
     <department>Безопасность компьютерных систем</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>15</id>
     <code>11.03.04</code>
     <name>Электроника и наноэлектроника</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>16</id>
     <code>12.03.03</code>
     <name>Фотоника и оптоинформатика</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>17</id>
     <code>12.03.03</code>
     <name>Фотоника и оптоинформатика</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>18</id>
     <code>12.03.04</code>
     <name>Биотехнические системы и технологии</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>19</id>
     <code>12.03.05</code>
     <name>Лазерная техника и лазерные технологии</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>20</id>
     <code>14.03.01</code>
     <name>Ядерная энергетика и теплофизика</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>21</id>
     <code>15.03.06</code>
     <name>Мехатроника и робототехника</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>22</id>
     <code>16.03.02</code>
     <name>Высокотехнологические плазменные и энергетические установки</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>23</id>
     <code>22.03.01</code>
     <name>Материаловедение и технологии материалов</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>24</id>
     <code>38.03.01</code>
     <name>Экономика</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>25</id>
     <code>38.03.05</code>
     <name>Бизнес-информатика</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>26</id>
     <code>38.03.05</code>
     <name>Бизнес-информатика</name>
     <department>Факультет бизнес-информатики и управления комплексными системами</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>27</id>
     <code>41.03.05</code>
     <name>Международные отношения</name>
     <department>Институт международных отношений</department>
     <level>Бакалавриат</level>
   </speciality>
   <speciality>
+    <id>28</id>
     <code>14.05.02</code>
     <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>29</id>
     <code>14.05.01</code>
     <name>Ядерные реакторы и материалы</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>30</id>
     <code>14.05.01</code>
     <name>Ядерные реакторы и материалы</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>31</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>32</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>33</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>34</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>35</id>
     <code>09.05.01</code>
     <name>Применение и эксплуатация автоматизированных систем специального назначения</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>36</id>
     <code>10.05.04</code>
     <name>Информационно-аналитические системы безопасности</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>37</id>
     <code>10.05.05</code>
     <name>Безопасность информационных технологий в правоохранительной сфере</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>38</id>
     <code>31.05.01</code>
     <name>Лечебное дело</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>39</id>
     <code>38.05.01</code>
     <name>Экономическая безопасность</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Специалитет</level>
   </speciality>
   <speciality>
+    <id>40</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>41</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>42</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>43</id>
     <code>01.03.02</code>
     <name>Прикладная математика и информатика</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>44</id>
     <code>03.03.01</code>
     <name>Прикладные математика и физика</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>45</id>
     <code>03.03.01</code>
     <name>Прикладные математика и физика</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>46</id>
     <code>03.03.02</code>
     <name>Физика</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>47</id>
     <code>04.03.01</code>
     <name>Химия</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>48</id>
     <code>04.03.02</code>
     <name>Химия, физика и механика материалов</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>49</id>
     <code>06.03.01</code>
     <name>Биология</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>50</id>
     <code>09.03.01</code>
     <name>Информатика и вычислительная техника</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>51</id>
     <code>09.03.04</code>
     <name>Программная инженерия</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>52</id>
     <code>10.03.01</code>
     <name>Информационная безопасность</name>
     <department>Инновационные технологии компьютерной безопасности</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>53</id>
     <code>10.03.01</code>
     <name>Информационная безопасность</name>
     <department>Безопасность компьютерных систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>54</id>
     <code>11.03.04</code>
     <name>Электроника и наноэлектроника</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>55</id>
     <code>12.03.03</code>
     <name>Фотоника и оптоинформатика</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>56</id>
     <code>12.03.03</code>
     <name>Фотоника и оптоинформатика</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>57</id>
     <code>12.03.04</code>
     <name>Биотехнические системы и технологии</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>58</id>
     <code>12.03.05</code>
     <name>Лазерная техника и лазерные технологии</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>59</id>
     <code>14.03.01</code>
     <name>Ядерная энергетика и теплофизика</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>60</id>
     <code>15.03.06</code>
     <name>Мехатроника и робототехника</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>61</id>
     <code>16.03.02</code>
     <name>Высокотехнологические плазменные и энергетические установки</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>62</id>
     <code>22.03.01</code>
     <name>Материаловедение и технологии материалов</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>63</id>
     <code>38.03.01</code>
     <name>Экономика</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>64</id>
     <code>38.03.05</code>
     <name>Бизнес-информатика</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>65</id>
     <code>38.03.05</code>
     <name>Бизнес-информатика</name>
     <department>Факультет бизнес-информатики и управления комплексными системами</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>66</id>
     <code>41.03.05</code>
     <name>Международные отношения</name>
     <department>Институт международных отношений</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>67</id>
     <code>14.05.02</code>
     <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>68</id>
     <code>14.05.01</code>
     <name>Ядерные реакторы и материалы</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>69</id>
     <code>14.05.01</code>
     <name>Ядерные реакторы и материалы</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>70</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>71</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>72</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>73</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>74</id>
     <code>09.05.01</code>
     <name>Применение и эксплуатация автоматизированных систем специального назначения</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>75</id>
     <code>10.05.04</code>
     <name>Информационно-аналитические системы безопасности</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>76</id>
     <code>10.05.05</code>
     <name>Безопасность информационных технологий в правоохранительной сфере</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>77</id>
     <code>31.05.01</code>
     <name>Лечебное дело</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>78</id>
     <code>38.05.01</code>
     <name>Экономическая безопасность</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Магистратура</level>
   </speciality>
   <speciality>
+    <id>79</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>80</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>81</id>
     <code>14.03.02</code>
     <name>Ядерные физика и технологии</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>82</id>
     <code>01.03.02</code>
     <name>Прикладная математика и информатика</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>83</id>
     <code>03.03.01</code>
     <name>Прикладные математика и физика</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>84</id>
     <code>03.03.01</code>
     <name>Прикладные математика и физика</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>85</id>
     <code>03.03.02</code>
     <name>Физика</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>86</id>
     <code>04.03.01</code>
     <name>Химия</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>87</id>
     <code>04.03.02</code>
     <name>Химия, физика и механика материалов</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>88</id>
     <code>06.03.01</code>
     <name>Биология</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>89</id>
     <code>09.03.01</code>
     <name>Информатика и вычислительная техника</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>90</id>
     <code>09.03.04</code>
     <name>Программная инженерия</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>91</id>
     <code>10.03.01</code>
     <name>Информационная безопасность</name>
     <department>Инновационные технологии компьютерной безопасности</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>92</id>
     <code>10.03.01</code>
     <name>Информационная безопасность</name>
     <department>Безопасность компьютерных систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>93</id>
     <code>11.03.04</code>
     <name>Электроника и наноэлектроника</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>94</id>
     <code>12.03.03</code>
     <name>Фотоника и оптоинформатика</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>95</id>
     <code>12.03.03</code>
     <name>Фотоника и оптоинформатика</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>96</id>
     <code>12.03.04</code>
     <name>Биотехнические системы и технологии</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>97</id>
     <code>12.03.05</code>
     <name>Лазерная техника и лазерные технологии</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>98</id>
     <code>14.03.01</code>
     <name>Ядерная энергетика и теплофизика</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>99</id>
     <code>15.03.06</code>
     <name>Мехатроника и робототехника</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>100</id>
     <code>16.03.02</code>
     <name>Высокотехнологические плазменные и энергетические установки</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>101</id>
     <code>22.03.01</code>
     <name>Материаловедение и технологии материалов</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>102</id>
     <code>38.03.01</code>
     <name>Экономика</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>103</id>
     <code>38.03.05</code>
     <name>Бизнес-информатика</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>104</id>
     <code>38.03.05</code>
     <name>Бизнес-информатика</name>
     <department>Факультет бизнес-информатики и управления комплексными системами</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>105</id>
     <code>41.03.05</code>
     <name>Международные отношения</name>
     <department>Институт международных отношений</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>106</id>
     <code>14.05.02</code>
     <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>107</id>
     <code>14.05.01</code>
     <name>Ядерные реакторы и материалы</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>108</id>
     <code>14.05.01</code>
     <name>Ядерные реакторы и материалы</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>109</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт лазерных и плазменных технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>110</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт ядерной физики и технологий</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>111</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт физико-технических интеллектуальных систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>112</id>
     <code>14.05.04</code>
     <name>Электроника и автоматика физических установок</name>
     <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>113</id>
     <code>09.05.01</code>
     <name>Применение и эксплуатация автоматизированных систем специального назначения</name>
     <department>Институт интеллектуальных кибернетических систем</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>114</id>
     <code>10.05.04</code>
     <name>Информационно-аналитические системы безопасности</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>115</id>
     <code>10.05.05</code>
     <name>Безопасность информационных технологий в правоохранительной сфере</name>
     <department>Институт финансовой и экономической безопасности</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>116</id>
     <code>31.05.01</code>
     <name>Лечебное дело</name>
     <department>Инженерно-физический институт биомедицины</department>
     <level>Аспирантура</level>
   </speciality>
   <speciality>
+    <id>117</id>
     <code>38.05.01</code>
     <name>Экономическая безопасность</name>
     <department>Институт финансовой и экономической безопасности</department>
