@@ -14,7 +14,7 @@ def process(xml_file, sql_file, create_seq=True):
     sql = TSQLGenerator(table_name)
 
     with open(sql_file, "w", encoding="utf-8") as f:
-        sql.add(f, sql.gen_table(parameters))
+        sql.add(f, sql.gen_table(parameters), create_seq)
 
         if create_seq:
             seq_name = TSQLGenerator.gen_name("seq", table_name, "id")

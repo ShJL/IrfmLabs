@@ -7,9 +7,7 @@
                 <title>Вставка данных в таблицу specialities</title>
             </head>
             <body>
-                <dl>
-                    <xsl:apply-templates select="object"/>
-                </dl>
+                <xsl:apply-templates select="object"/>
             </body>
         </html>
     </xsl:template>

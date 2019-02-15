@@ -7,11 +7,9 @@
                 <title>Вставка данных в таблицу a_groups</title>
             </head>
             <body>
-                <dl>
-                    <xsl:for-each select="another-students-db-a-group[not(name=preceding-sibling::another-students-db-a-group/name and old-name=preceding-sibling::another-students-db-a-group/old-name and term-number=preceding-sibling::another-students-db-a-group/term-number and study-year=preceding-sibling::another-students-db-a-group/study-year and created-at=preceding-sibling::another-students-db-a-group/created-at and updated-at=preceding-sibling::another-students-db-a-group/updated-at)]">
-                        <xsl:apply-templates select="."/>
-                    </xsl:for-each>
-                </dl>
+                <xsl:for-each select="another-students-db-a-group[not(name=preceding-sibling::another-students-db-a-group/name and old-name=preceding-sibling::another-students-db-a-group/old-name and term-number=preceding-sibling::another-students-db-a-group/term-number and study-year=preceding-sibling::another-students-db-a-group/study-year and created-at=preceding-sibling::another-students-db-a-group/created-at and updated-at=preceding-sibling::another-students-db-a-group/updated-at)]">
+                    <xsl:apply-templates select="."/>
+                </xsl:for-each>
             </body>
         </html>
     </xsl:template>
