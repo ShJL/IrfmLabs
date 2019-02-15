@@ -14,7 +14,7 @@ def xml_analyzer(file_name):
     for obj in objects:
         for field in obj:
             cur_params = parameters.get(field.tag, default_parametrs.copy())
-            if not field.text:
+            if not field.text or field.get("nil", "false") == "true":
                 cur_params["Null"] = "null"
             elif field.get("type", "string") == "string":
                 cur_params["MaxLen"] = max(cur_params.get("MaxLen", 0), len(field.text))
