@@ -16,7 +16,7 @@
         </html>
     </xsl:template>
     <xsl:template match="another-students-db-a-group">
-            <dd>
+            <dl>
                 <xsl:text>into a_groups (</xsl:text>
                 <xsl:for-each select="*">
                     <xsl:text>"</xsl:text>
@@ -48,10 +48,10 @@
                                 <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="position()!=last()"><xsl:text>,</xsl:text></xsl:if>
+                        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
                 </xsl:for-each>
                 <xsl:text>)</xsl:text>
-            </dd>
+            </dl>
     </xsl:template>
     <xsl:template name="replace">
         <xsl:param name="string"/>

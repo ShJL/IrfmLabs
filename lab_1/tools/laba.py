@@ -1,4 +1,5 @@
 import json
+import lxml.etree as xml
 import os
 from sql import TSQLGenerator
 from xml_analyzer import xml_analyzer
@@ -22,3 +23,19 @@ def process(xml_file, sql_file, create_seq=True):
 
             body = f'\tselect {seq_name}.nextval\n\tinto :new."id"\n\tfrom dual;'
             sql.add(f, sql.gen_trigger("before", "insert", body, "id"), False)
+
+
+def add_inserts(xml_file, xsl_file, sql_file):
+    transform = xml.XSLT(xml.parse(xsl_file))
+    inserts = transform(xml.parse(xml_file)).find("body")
+
+    with open(sql_file, "a", encoding="utf-8") as f:
+        f.write("\n\n")
+        if inserts.text:
+            f.write(inserts.text + "\n")
+        tail = ""
+        for insert in inserts.iter("dl"):
+            f.write("".join(insert.itertext()) + "\n")
+            tail = insert.tail
+        if tail:
+            f.write(tail + "\n")

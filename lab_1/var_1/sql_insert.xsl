@@ -44,7 +44,7 @@
                                 <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="position()!=last()"><xsl:text>,</xsl:text></xsl:if>
+                        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
                     </dd>
                 </xsl:for-each>
             <xsl:text>);</xsl:text>
