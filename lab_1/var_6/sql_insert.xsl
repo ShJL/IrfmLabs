@@ -16,42 +16,42 @@
         </html>
     </xsl:template>
     <xsl:template match="another-students-db-a-group">
-            <dl>
-                <xsl:text>into a_groups (</xsl:text>
-                <xsl:for-each select="*">
-                    <xsl:text>"</xsl:text>
-                    <xsl:call-template name="replace">
-                        <xsl:with-param name="string" select="name()"/>
-                        <xsl:with-param name="search" select="'-'"/>
-                        <xsl:with-param name="replacement" select="'_'"/>
-                    </xsl:call-template>
-                    <xsl:text>"</xsl:text>
+        <dl>
+            <xsl:text>into a_groups (</xsl:text>
+            <xsl:for-each select="*">
+                <xsl:text>"</xsl:text>
+                <xsl:call-template name="replace">
+                    <xsl:with-param name="string" select="name()"/>
+                    <xsl:with-param name="search" select="'-'"/>
+                    <xsl:with-param name="replacement" select="'_'"/>
+                </xsl:call-template>
+                <xsl:text>"</xsl:text>
+                <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+            </xsl:for-each>
+            <xsl:text>) values (</xsl:text>
+            <xsl:for-each select="*">
+                    <xsl:choose>
+                        <xsl:when test="@nil='true'">
+                            <xsl:text>null</xsl:text>
+                        </xsl:when>
+                        <xsl:when test="name()='id'">
+                            <xsl:value-of select=". + 10000"/>
+                        </xsl:when>
+                        <xsl:when test="@type='dateTime'">
+                            <xsl:text>date'</xsl:text>
+                            <xsl:value-of select="substring-before(., 'T')"/>
+                            <xsl:text>'</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
+                            <xsl:value-of select="."/>
+                            <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
+                        </xsl:otherwise>
+                    </xsl:choose>
                     <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-                </xsl:for-each>
-                <xsl:text>) values (</xsl:text>
-                <xsl:for-each select="*">
-                        <xsl:choose>
-                            <xsl:when test="@nil='true'">
-                                <xsl:text>null</xsl:text>
-                            </xsl:when>
-                            <xsl:when test="name()='id'">
-                                <xsl:value-of select=". + 10000"/>
-                            </xsl:when>
-                            <xsl:when test="@type='dateTime'">
-                                <xsl:text>date'</xsl:text>
-                                <xsl:value-of select="substring-before(., 'T')"/>
-                                <xsl:text>'</xsl:text>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
-                                <xsl:value-of select="."/>
-                                <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
-                </xsl:for-each>
-                <xsl:text>)</xsl:text>
-            </dl>
+            </xsl:for-each>
+            <xsl:text>)</xsl:text>
+        </dl>
     </xsl:template>
     <xsl:template name="replace">
         <xsl:param name="string"/>
