@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sql_insert.xsl"?>
+<another-students-db-a-groups type="array">
+  <another-students-db-a-group>
+    <id type="integer">22673</id>
+    <name>Ф02-05</name>
+    <old-name nil="true"/>
+    <term-number type="integer">2</term-number>
+    <study-year>2014/2015</study-year>
+    <created-at type="dateTime">2018-05-03T04:18:26+03:00</created-at>
+    <updated-at type="dateTime">2018-05-03T04:18:26+03:00</updated-at>
+  </another-students-db-a-group>
+  <another-students-db-a-group>
+    <id type="integer">22674</id>
+    <name>Ф01-05</name>
+    <old-name nil="true"/>
+    <term-number type="integer">1</term-number>
+    <study-year>2014/2015</study-year>
+    <created-at type="dateTime">2018-05-03T04:18:26+03:00</created-at>
+    <updated-at type="dateTime">2018-05-03T04:18:26+03:00</updated-at>
+  </another-students-db-a-group>
+  <another-students-db-a-group>
+    <id type="integer">22675</id>
+    <name>Ф03-05</name>
+    <old-name nil="true"/>
+    <term-number type="integer">3</term-number>
+    <study-year>2013/2014</study-year>
+    <created-at type="dateTime">2018-05-03T04:18:26+03:00</created-at>
+    <updated-at type="dateTime">2018-05-03T04:18:26+03:00</updated-at>
+  </another-students-db-a-group>
+</another-students-db-a-groups>
