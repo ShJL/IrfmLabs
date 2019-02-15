@@ -24,6 +24,8 @@ class TSQLGenerator:
             return f'varchar2({field["MaxLen"]})'
         elif field["Type"] == "integer":
             return "number"
+        elif field["Type"] == "dateTime":
+            return "date"
         return field["Type"]
 
 

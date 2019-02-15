@@ -16,10 +16,9 @@ def xml_analyzer(file_name):
             cur_params = parameters.get(field.tag, default_parametrs.copy())
             if not field.text:
                 cur_params["Null"] = "null"
-            if field.get("type", "string") == "string":
+            elif field.get("type", "string") == "string":
                 cur_params["MaxLen"] = max(cur_params.get("MaxLen", 0), len(field.text))
-            else:
-                cur_params["Type"] = field.get("type")
+            cur_params["Type"] = field.get("type", "string")
             unique_values[field.tag] = unique_values.get(field.tag, set()) | set([field.text])
             parameters[field.tag] = cur_params.copy()
 
@@ -27,4 +26,3 @@ def xml_analyzer(file_name):
         parameters[field]["Check"] = sorted(vals)
 
     return parameters
-
