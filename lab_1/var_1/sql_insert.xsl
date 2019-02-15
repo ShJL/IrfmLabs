@@ -8,20 +8,28 @@
             </head>
             <body>
                 <dl>
-                    <xsl:apply-templates select="specialities/speciality"/>
+                    <xsl:apply-templates select="objects/object"/>
                 </dl>
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="speciality">
+    <xsl:template match="object">
         <dl>
-            insert into specialities
-                <dd>(code, "name", department, "level")</dd>
-            values (
-                <dd>'<xsl:value-of select="//code"/>',</dd>
-                <dd>'<xsl:value-of select="//name"/>',</dd>
-                <dd>'<xsl:value-of select="//department"/>',</dd>
-                <dd>'<xsl:value-of select="//level"/>'</dd>
+            insert into specialities (
+                <dd>
+                    <xsl:for-each select="./*[position() > 1]">
+                        "<xsl:value-of select="name()"/>"<xsl:if test="position() &lt; last()">,</xsl:if>
+                    </xsl:for-each>
+                </dd>
+            ) values (
+                <xsl:for-each select="./*[position()>1]">
+                    <dd>
+                        <xsl:if test="@type = 'string' or not(@type)">'</xsl:if>
+                        <xsl:value-of select="."/>
+                        <xsl:if test="@type = 'string' or not(@type)">'</xsl:if>
+                        <xsl:if test="position() &lt; last()">,</xsl:if>
+                    </dd>
+                </xsl:for-each>
             );
         </dl>
     </xsl:template>

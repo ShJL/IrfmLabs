@@ -1,18 +1,71 @@
 {
-    "Code": {
-        "MaxLen": 8,
-        "Constraint": "NOT NULL"
+    "id": {
+        "Type": "integer",
+        "Null": "not null"
     },
-    "Name": {
-        "MaxLen": 75,
-        "Constraint": "NOT NULL"
+    "name": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 102
     },
-    "Department": {
-        "MaxLen": 64,
-        "Constraint": "NOT NULL"
+    "code": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 8
     },
-    "Level": {
+    "level": {
+        "Type": "string",
+        "Null": "not null",
         "MaxLen": 12,
-        "Constraint": "NOT NULL"
+        "Check": [
+            "Аспирантура",
+            "Бакалавриат",
+            "Магистратура",
+            "Специалитет"
+        ]
+    },
+    "level-id": {
+        "Type": "integer",
+        "Null": "not null",
+        "Check": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ]
+    },
+    "generation": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 6,
+        "Check": [
+            "ГОС2",
+            "ФГОС3+"
+        ]
+    },
+    "generation-id": {
+        "Type": "integer",
+        "Null": "not null",
+        "Check": [
+            "0",
+            "1"
+        ]
+    },
+    "type": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 13,
+        "Check": [
+            "направление",
+            "специальность"
+        ]
+    },
+    "type-id": {
+        "Type": "integer",
+        "Null": "not null",
+        "Check": [
+            "0",
+            "1"
+        ]
     }
 }

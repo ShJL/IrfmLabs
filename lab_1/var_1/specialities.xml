@@ -1,823 +1,1907 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='sql_insert.xsl'?>
-<specialities>
-  <speciality>
-    <id>1</id>
-    <code>14.03.02</code>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sql_insert.xsl"?>
+<objects type="array">
+  <object>
+    <id type="integer">307</id>
+    <name>Технологии разделения изотопов и ядерное топливо</name>
+    <code>14.05.03</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">308</id>
     <name>Ядерные физика и технологии</name>
-    <department>Институт ядерной физики и технологий</department>
+    <code>14.04.02</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">309</id>
+    <name>Юриспруденция</name>
+    <code>030501</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">310</id>
+    <name>Прикладная математика</name>
+    <code>230401</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">311</id>
+    <name>Информационная безопасность</name>
+    <code>090900</code>
     <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>2</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Инженерно-физический институт биомедицины</department>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">312</id>
+    <name>Конструкторско-технологическое обеспечение машиностроительных производств</name>
+    <code>151900</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">313</id>
+    <name>Физика кинетических явлений</name>
+    <code>140303</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">314</id>
+    <name>Прикладная информатика</name>
+    <code>09.03.03</code>
     <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>3</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>4</id>
-    <code>01.03.02</code>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">315</id>
     <name>Прикладная математика и информатика</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>5</id>
-    <code>03.03.01</code>
-    <name>Прикладные математика и физика</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>6</id>
-    <code>03.03.01</code>
-    <name>Прикладные математика и физика</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>7</id>
-    <code>03.03.02</code>
-    <name>Физика</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>8</id>
-    <code>04.03.01</code>
-    <name>Химия</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>9</id>
-    <code>04.03.02</code>
-    <name>Химия, физика и механика материалов</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>10</id>
-    <code>06.03.01</code>
-    <name>Биология</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>11</id>
-    <code>09.03.01</code>
-    <name>Информатика и вычислительная техника</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>12</id>
-    <code>09.03.04</code>
-    <name>Программная инженерия</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>13</id>
-    <code>10.03.01</code>
-    <name>Информационная безопасность</name>
-    <department>Инновационные технологии компьютерной безопасности</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>14</id>
-    <code>10.03.01</code>
-    <name>Информационная безопасность</name>
-    <department>Безопасность компьютерных систем</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>15</id>
-    <code>11.03.04</code>
-    <name>Электроника и наноэлектроника</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>16</id>
-    <code>12.03.03</code>
-    <name>Фотоника и оптоинформатика</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>17</id>
-    <code>12.03.03</code>
-    <name>Фотоника и оптоинформатика</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>18</id>
-    <code>12.03.04</code>
-    <name>Биотехнические системы и технологии</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>19</id>
-    <code>12.03.05</code>
-    <name>Лазерная техника и лазерные технологии</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>20</id>
-    <code>14.03.01</code>
-    <name>Ядерная энергетика и теплофизика</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>21</id>
-    <code>15.03.06</code>
-    <name>Мехатроника и робототехника</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>22</id>
-    <code>16.03.02</code>
-    <name>Высокотехнологические плазменные и энергетические установки</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>23</id>
-    <code>22.03.01</code>
-    <name>Материаловедение и технологии материалов</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>24</id>
-    <code>38.03.01</code>
-    <name>Экономика</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>25</id>
-    <code>38.03.05</code>
-    <name>Бизнес-информатика</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>26</id>
-    <code>38.03.05</code>
-    <name>Бизнес-информатика</name>
-    <department>Факультет бизнес-информатики и управления комплексными системами</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>27</id>
-    <code>41.03.05</code>
-    <name>Международные отношения</name>
-    <department>Институт международных отношений</department>
-    <level>Бакалавриат</level>
-  </speciality>
-  <speciality>
-    <id>28</id>
-    <code>14.05.02</code>
-    <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>29</id>
-    <code>14.05.01</code>
-    <name>Ядерные реакторы и материалы</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>30</id>
-    <code>14.05.01</code>
-    <name>Ядерные реакторы и материалы</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>31</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>32</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>33</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>34</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>35</id>
-    <code>09.05.01</code>
-    <name>Применение и эксплуатация автоматизированных систем специального назначения</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>36</id>
-    <code>10.05.04</code>
-    <name>Информационно-аналитические системы безопасности</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>37</id>
-    <code>10.05.05</code>
-    <name>Безопасность информационных технологий в правоохранительной сфере</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>38</id>
-    <code>31.05.01</code>
-    <name>Лечебное дело</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>39</id>
-    <code>38.05.01</code>
-    <name>Экономическая безопасность</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Специалитет</level>
-  </speciality>
-  <speciality>
-    <id>40</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>41</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>42</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>43</id>
     <code>01.03.02</code>
-    <name>Прикладная математика и информатика</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>44</id>
-    <code>03.03.01</code>
-    <name>Прикладные математика и физика</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>45</id>
-    <code>03.03.01</code>
-    <name>Прикладные математика и физика</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>46</id>
-    <code>03.03.02</code>
-    <name>Физика</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>47</id>
-    <code>04.03.01</code>
-    <name>Химия</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>48</id>
-    <code>04.03.02</code>
-    <name>Химия, физика и механика материалов</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>49</id>
-    <code>06.03.01</code>
-    <name>Биология</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>50</id>
-    <code>09.03.01</code>
-    <name>Информатика и вычислительная техника</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>51</id>
-    <code>09.03.04</code>
-    <name>Программная инженерия</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>52</id>
-    <code>10.03.01</code>
-    <name>Информационная безопасность</name>
-    <department>Инновационные технологии компьютерной безопасности</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>53</id>
-    <code>10.03.01</code>
-    <name>Информационная безопасность</name>
-    <department>Безопасность компьютерных систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>54</id>
-    <code>11.03.04</code>
-    <name>Электроника и наноэлектроника</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>55</id>
-    <code>12.03.03</code>
-    <name>Фотоника и оптоинформатика</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>56</id>
-    <code>12.03.03</code>
-    <name>Фотоника и оптоинформатика</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>57</id>
-    <code>12.03.04</code>
-    <name>Биотехнические системы и технологии</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>58</id>
-    <code>12.03.05</code>
-    <name>Лазерная техника и лазерные технологии</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>59</id>
-    <code>14.03.01</code>
-    <name>Ядерная энергетика и теплофизика</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>60</id>
-    <code>15.03.06</code>
-    <name>Мехатроника и робототехника</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>61</id>
-    <code>16.03.02</code>
-    <name>Высокотехнологические плазменные и энергетические установки</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>62</id>
-    <code>22.03.01</code>
-    <name>Материаловедение и технологии материалов</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>63</id>
-    <code>38.03.01</code>
-    <name>Экономика</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>64</id>
-    <code>38.03.05</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">316</id>
     <name>Бизнес-информатика</name>
-    <department>Институт финансовой и экономической безопасности</department>
+    <code>38.04.05</code>
     <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>65</id>
-    <code>38.03.05</code>
-    <name>Бизнес-информатика</name>
-    <department>Факультет бизнес-информатики и управления комплексными системами</department>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">317</id>
+    <name>Информационные системы и технологии</name>
+    <code>09.04.02</code>
     <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>66</id>
-    <code>41.03.05</code>
-    <name>Международные отношения</name>
-    <department>Институт международных отношений</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>67</id>
-    <code>14.05.02</code>
-    <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>68</id>
-    <code>14.05.01</code>
-    <name>Ядерные реакторы и материалы</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>69</id>
-    <code>14.05.01</code>
-    <name>Ядерные реакторы и материалы</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>70</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>71</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>72</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>73</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>74</id>
-    <code>09.05.01</code>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">318</id>
     <name>Применение и эксплуатация автоматизированных систем специального назначения</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>75</id>
-    <code>10.05.04</code>
-    <name>Информационно-аналитические системы безопасности</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>76</id>
-    <code>10.05.05</code>
-    <name>Безопасность информационных технологий в правоохранительной сфере</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>77</id>
-    <code>31.05.01</code>
-    <name>Лечебное дело</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>78</id>
-    <code>38.05.01</code>
-    <name>Экономическая безопасность</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Магистратура</level>
-  </speciality>
-  <speciality>
-    <id>79</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>80</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>81</id>
-    <code>14.03.02</code>
-    <name>Ядерные физика и технологии</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>82</id>
-    <code>01.03.02</code>
-    <name>Прикладная математика и информатика</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>83</id>
-    <code>03.03.01</code>
-    <name>Прикладные математика и физика</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>84</id>
-    <code>03.03.01</code>
-    <name>Прикладные математика и физика</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>85</id>
-    <code>03.03.02</code>
-    <name>Физика</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>86</id>
-    <code>04.03.01</code>
-    <name>Химия</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>87</id>
-    <code>04.03.02</code>
-    <name>Химия, физика и механика материалов</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>88</id>
-    <code>06.03.01</code>
-    <name>Биология</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>89</id>
-    <code>09.03.01</code>
-    <name>Информатика и вычислительная техника</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>90</id>
-    <code>09.03.04</code>
-    <name>Программная инженерия</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>91</id>
-    <code>10.03.01</code>
-    <name>Информационная безопасность</name>
-    <department>Инновационные технологии компьютерной безопасности</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>92</id>
-    <code>10.03.01</code>
-    <name>Информационная безопасность</name>
-    <department>Безопасность компьютерных систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>93</id>
-    <code>11.03.04</code>
-    <name>Электроника и наноэлектроника</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>94</id>
-    <code>12.03.03</code>
-    <name>Фотоника и оптоинформатика</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>95</id>
-    <code>12.03.03</code>
-    <name>Фотоника и оптоинформатика</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>96</id>
-    <code>12.03.04</code>
-    <name>Биотехнические системы и технологии</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>97</id>
-    <code>12.03.05</code>
-    <name>Лазерная техника и лазерные технологии</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>98</id>
-    <code>14.03.01</code>
-    <name>Ядерная энергетика и теплофизика</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>99</id>
-    <code>15.03.06</code>
-    <name>Мехатроника и робототехника</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>100</id>
-    <code>16.03.02</code>
-    <name>Высокотехнологические плазменные и энергетические установки</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>101</id>
-    <code>22.03.01</code>
-    <name>Материаловедение и технологии материалов</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>102</id>
-    <code>38.03.01</code>
-    <name>Экономика</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>103</id>
-    <code>38.03.05</code>
-    <name>Бизнес-информатика</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>104</id>
-    <code>38.03.05</code>
-    <name>Бизнес-информатика</name>
-    <department>Факультет бизнес-информатики и управления комплексными системами</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>105</id>
-    <code>41.03.05</code>
-    <name>Международные отношения</name>
-    <department>Институт международных отношений</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>106</id>
-    <code>14.05.02</code>
-    <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>107</id>
-    <code>14.05.01</code>
-    <name>Ядерные реакторы и материалы</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>108</id>
-    <code>14.05.01</code>
-    <name>Ядерные реакторы и материалы</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>109</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт лазерных и плазменных технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>110</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт ядерной физики и технологий</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>111</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт физико-технических интеллектуальных систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>112</id>
-    <code>14.05.04</code>
-    <name>Электроника и автоматика физических установок</name>
-    <department>Институт нанотехнологий в электронике, спинтронике и фотонике</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>113</id>
     <code>09.05.01</code>
-    <name>Применение и эксплуатация автоматизированных систем специального назначения</name>
-    <department>Институт интеллектуальных кибернетических систем</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>114</id>
-    <code>10.05.04</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">319</id>
+    <name>Безопасность и нераспространение ядерных материалов</name>
+    <code>140309</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">320</id>
+    <name>Техническая физика</name>
+    <code>140400</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">321</id>
+    <name>Ядерные физика и технологии</name>
+    <code>140800</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">322</id>
+    <name>Прикладная математика и информатика</name>
+    <code>010501</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">323</id>
+    <name>Атомные станции: проектирование, эксплуатация и инжиниринг</name>
+    <code>14.05.02</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">324</id>
+    <name>Юриспруденция</name>
+    <code>40.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">325</id>
+    <name>Экономика</name>
+    <code>38.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">326</id>
+    <name>Прикладная информатика (по областям)</name>
+    <code>080801</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">327</id>
+    <name>Материаловедение и технологии материалов</name>
+    <code>22.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">328</id>
+    <name>Юриспруденция</name>
+    <code>40.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">329</id>
     <name>Информационно-аналитические системы безопасности</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>115</id>
-    <code>10.05.05</code>
+    <code>10.05.04</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">330</id>
+    <name>Материаловедение и технологии материалов</name>
+    <code>150100</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">331</id>
+    <name>Электроника и автоматика физических установок</name>
+    <code>14.05.04</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">332</id>
+    <name>Международные отношения</name>
+    <code>41.03.05</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">333</id>
+    <name>Технологии разделения изотопов и ядерное топливо</name>
+    <code>141405</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">334</id>
     <name>Безопасность информационных технологий в правоохранительной сфере</name>
-    <department>Институт финансовой и экономической безопасности</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>116</id>
-    <code>31.05.01</code>
-    <name>Лечебное дело</name>
-    <department>Инженерно-физический институт биомедицины</department>
-    <level>Аспирантура</level>
-  </speciality>
-  <speciality>
-    <id>117</id>
-    <code>38.05.01</code>
+    <code>10.05.05</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">335</id>
+    <name>Экономика</name>
+    <code>080100</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">336</id>
+    <name>Прикладная информатика</name>
+    <code>230700</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">337</id>
+    <name>Ядерные физика и технологии</name>
+    <code>14.03.02</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">338</id>
+    <name>Информатика и вычислительная техника</name>
+    <code>09.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">339</id>
+    <name>Бизнес-информатика</name>
+    <code>38.03.05</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">340</id>
+    <name>Системный анализ и управление</name>
+    <code>27.03.03</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">341</id>
+    <name>Информационная безопасность</name>
+    <code>090900</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">342</id>
+    <name>Ядерная энергетика и теплофизика</name>
+    <code>14.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">343</id>
+    <name>Информатика и вычислительная техника</name>
+    <code>230100</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">344</id>
+    <name>Вычислительные машины, комплексы, системы и сети</name>
+    <code>230101</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">345</id>
+    <name>Прикладная математика и информатика</name>
+    <code>010400</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">346</id>
+    <name>Прикладная математика</name>
+    <code>01.03.04</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">347</id>
+    <name>Комплексная защита объектов информатизации</name>
+    <code>090104</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">348</id>
+    <name>Прикладная математика и информатика</name>
+    <code>010400</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">349</id>
+    <name>Правовое обеспечение национальной безопасности</name>
+    <code>40.05.01</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">350</id>
+    <name>Физика</name>
+    <code>03.03.02</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">351</id>
+    <name>Информационная безопасность</name>
+    <code>10.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">352</id>
+    <name>Физика металлов</name>
+    <code>150702</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">353</id>
+    <name>Физика пучков заряженных частиц и ускорительная техника</name>
+    <code>140304</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">354</id>
+    <name>Медицинская физика</name>
+    <code>010707</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">355</id>
+    <name>Прикладная математика и информатика</name>
+    <code>01.04.02</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">357</id>
+    <name>Информационная безопасность</name>
+    <code>10.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">358</id>
+    <name>Комплексное обеспечение информационной безопасности автоматизированных систем</name>
+    <code>090105</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">359</id>
+    <name>Прикладные математика и физика</name>
+    <code>03.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">360</id>
+    <name>Материаловедение и технологии материалов</name>
+    <code>22.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">361</id>
+    <name>Прикладная информатика</name>
+    <code>09.04.03</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">362</id>
+    <name>Международные отношения</name>
+    <code>030701</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">363</id>
+    <name>Ядерные реакторы и материалы</name>
+    <code>14.05.01</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">364</id>
+    <name>Прикладная математика и информатика</name>
+    <code>010500</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">365</id>
+    <name>Прикладные математика и физика</name>
+    <code>010600</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">366</id>
+    <name>Информатика и вычислительная техника</name>
+    <code>09.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">367</id>
+    <name>Программная инженерия</name>
+    <code>09.04.04</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">368</id>
+    <name>Прикладная математика и информатика</name>
+    <code>010500</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">369</id>
+    <name>Физика</name>
+    <code>010700</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">370</id>
+    <name>Менеджмент</name>
+    <code>080500</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">371</id>
+    <name>Физика</name>
+    <code>011200</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">372</id>
+    <name>Информационная безопасность автоматизированных систем</name>
+    <code>10.05.03</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">373</id>
+    <name>Прикладные математика и физика</name>
+    <code>010900</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">374</id>
+    <name>Материаловедение и технологии материалов</name>
+    <code>150100</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">375</id>
+    <name>Математические методы в экономике</name>
+    <code>080116</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">376</id>
+    <name>Физика</name>
+    <code>011200</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">377</id>
+    <name>Экономика и управление на предприятии (по отраслям)</name>
+    <code>080502</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">378</id>
+    <name>Международные отношения</name>
+    <code>41.04.05</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">379</id>
+    <name>Физика</name>
+    <code>03.04.02</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">380</id>
+    <name>Прикладные математика и физика</name>
+    <code>010600</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">381</id>
+    <name>Электроника и микроэлектроника</name>
+    <code>210100</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">382</id>
+    <name>Менеджмент</name>
+    <code>38.03.02</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">383</id>
+    <name>Финансы и кредит</name>
+    <code>080105</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">384</id>
+    <name>Информатика и вычислительная техника</name>
+    <code>230100</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">385</id>
+    <name>Экономика</name>
+    <code>080100</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">386</id>
+    <name>Физика конденсированного состояния вещества</name>
+    <code>140301</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">387</id>
+    <name>Ядерные реакторы и энергетические установки</name>
+    <code>140305</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">388</id>
+    <name>Информационная безопасность автоматизированных систем</name>
+    <code>090303</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">389</id>
+    <name>Физика атомного ядра и частиц</name>
+    <code>140302</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">390</id>
+    <name>Менеджмент</name>
+    <code>38.04.02</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">391</id>
+    <name>Информационные системы и технологии</name>
+    <code>09.03.02</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">392</id>
+    <name>Бухгалтерский учет, анализ и аудит</name>
+    <code>080109</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">393</id>
+    <name>Программная инженерия</name>
+    <code>231000</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">394</id>
+    <name>Прикладные математика и физика</name>
+    <code>03.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">395</id>
+    <name>Экономика</name>
+    <code>38.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">396</id>
+    <name>Ядерные физика и технологии</name>
+    <code>140800</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">397</id>
+    <name>Конструкторско-технологическое обеспечение машиностроительных производств</name>
+    <code>15.04.05</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">398</id>
+    <name>Автоматизированные системы обработки информации и управления</name>
+    <code>230102</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">399</id>
+    <name>Прикладная математика</name>
+    <code>01.04.04</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">400</id>
     <name>Экономическая безопасность</name>
-    <department>Институт финансовой и экономической безопасности</department>
+    <code>38.05.01</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">401</id>
+    <name>Радиационная безопасность человека и окружающей среды</name>
+    <code>140307</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">402</id>
+    <name>Экономика</name>
+    <code>080100</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">403</id>
+    <name>Менеджмент</name>
+    <code>080200</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">404</id>
+    <name>Программная инженерия</name>
+    <code>09.03.04</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">405</id>
+    <name>Системный анализ и управление</name>
+    <code>27.04.03</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">406</id>
+    <name>Менеджмент</name>
+    <code>080200</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">407</id>
+    <name>Ядерная энергетика и теплофизика</name>
+    <code>140700</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">408</id>
+    <name>Электроника и автоматика физических установок</name>
+    <code>140306</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">409</id>
+    <name>Дифференциальные уравнения</name>
+    <code>01.01.02</code>
     <level>Аспирантура</level>
-  </speciality>
-</specialities>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">410</id>
+    <name>Приборы и методы экспериментальной физики</name>
+    <code>01.04.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">411</id>
+    <name>Физика и астрономия</name>
+    <code>03.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">412</id>
+    <name>Теоретическая физика</name>
+    <code>01.04.02</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">413</id>
+    <name>Физика конденсированного состояния</name>
+    <code>01.04.07</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">414</id>
+    <name>Физика плазмы</name>
+    <code>01.04.08</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">415</id>
+    <name>Электрофизика, электрофизические установки</name>
+    <code>01.04.13</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">416</id>
+    <name>Теплофизика и теоретическая теплотехника</name>
+    <code>01.04.14</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">417</id>
+    <name>Электро- и теплотехника</name>
+    <code>13.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">418</id>
+    <name>Физика атомного ядра и элементарных частиц</name>
+    <code>01.04.16</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">419</id>
+    <name>Физика пучков заряженных частиц и ускорительная техника</name>
+    <code>01.04.20</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">420</id>
+    <name>Лазерная физика</name>
+    <code>01.04.21</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">421</id>
+    <name>Физика высоких энергий</name>
+    <code>01.04.23</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">422</id>
+    <name>Информационно-измерительные и управляющие системы (по отраслям)</name>
+    <code>05.11.16</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">423</id>
+    <name>Управление в технических системах</name>
+    <code>27.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">424</id>
+    <name>Системный анализ, управление и обработка информации (по отраслям)</name>
+    <code>05.13.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">425</id>
+    <name>Информатика и вычислительная техника</name>
+    <code>09.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">426</id>
+    <name>Элементы и устройства вычислительной техники и систем управления</name>
+    <code>05.13.05</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">427</id>
+    <name>Автоматизация и управление технологическими процессами и производствами (по отраслям)</name>
+    <code>05.13.06</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">428</id>
+    <name>Математическое и программное обеспечение вычислительных машин, комплексов и компьютерных сетей</name>
+    <code>05.13.11</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">429</id>
+    <name>Математическое моделирование, численные методы и комплексы программ</name>
+    <code>05.13.18</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">430</id>
+    <name>Компьютерные и информационные науки </name>
+    <code>02.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">431</id>
+    <name>Методы и системы защиты информации, информационная безопасность</name>
+    <code>05.13.19</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">432</id>
+    <name>Информационная безопасность</name>
+    <code>10.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">433</id>
+    <name>Ядерные энергетические установки, включая проектирование, эксплуатацию и вывод из эксплуатации</name>
+    <code>05.14.03</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">434</id>
+    <name>Ядерная, тепловая и возобновляемая энергетика и сопутствующие технологии</name>
+    <code>14.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">435</id>
+    <name>Твердотельная электроника, радиоэлектронные компоненты, микро- и наноэлектроника на квантовых эффектах</name>
+    <code>05.27.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">436</id>
+    <name>Электроника, радиотехника и системы связи</name>
+    <code>11.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">437</id>
+    <name>Экономика и управление народным хозяйством (по отраслям и сферам деятельности)</name>
+    <code>08.00.05</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">438</id>
+    <name>Экономика</name>
+    <code>38.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">439</id>
+    <name>Бухгалтерский учет, статистика</name>
+    <code>08.00.12</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">440</id>
+    <name>Математические  и инструментальные методы экономики</name>
+    <code>08.00.13</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">441</id>
+    <name>Административное право, финансовое право, информационное право</name>
+    <code>12.00.14</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">442</id>
+    <name>Юриспруденция</name>
+    <code>40.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">443</id>
+    <name>Материаловедение</name>
+    <code>05.16.09</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">444</id>
+    <name>Химическая технология</name>
+    <code>18.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">445</id>
+    <name>Порошковая металлургия и композиционные материалы</name>
+    <code>05.16.06</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">446</id>
+    <name>Технологии материалов</name>
+    <code>22.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">447</id>
+    <name>Лазерная техника и лазерные технологии</name>
+    <code>12.03.05</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">448</id>
+    <name>Математика и механика</name>
+    <code>01.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">449</id>
+    <name>Юриспруденция</name>
+    <code>030900</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">450</id>
+    <name>Компьютерные и информаионные науки</name>
+    <code>02.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">451</id>
+    <name>Психология</name>
+    <code>37.04.01</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">452</id>
+    <name>Лазерная техника и лазерные технологии</name>
+    <code>12.04.05</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">454</id>
+    <name>Физико-технические науки и технологии</name>
+    <code>16.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">356</id>
+    <name>Экономическая безопасность</name>
+    <code>080101</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">455</id>
+    <name>Химические науки</name>
+    <code>04.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">453</id>
+    <name>Фотоника, приборостроение, оптические и биотехнические системы и технологии</name>
+    <code>12.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">456</id>
+    <name>Машиностроение</name>
+    <code>15.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">457</id>
+    <name>Психологические науки</name>
+    <code>37.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">458</id>
+    <name>Биологические науки</name>
+    <code>06.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">459</id>
+    <name>Электроника и наноэлектроника</name>
+    <code>11.04.04</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">460</id>
+    <name>Электроника и наноэлектроника</name>
+    <code>11.03.04</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">461</id>
+    <name>Авиационная и ракетно-космическая техника</name>
+    <code>24.06.01</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">462</id>
+    <name>Биология</name>
+    <code>06.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">463</id>
+    <name>Лечебное дело</name>
+    <code>31.05.01</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">464</id>
+    <name>Менеджмент организации</name>
+    <code>080507</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">465</id>
+    <name>Приборостроение</name>
+    <code>12.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">466</id>
+    <name>Химия</name>
+    <code>04.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">467</id>
+    <name>Химия, физика и механика материалов</name>
+    <code>04.04.02</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">468</id>
+    <name>Экология и природопользование</name>
+    <code>05.03.06</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">469</id>
+    <name>Атомные электрические станции и установки</name>
+    <code>140404</code>
+    <level>Специалитет</level>
+    <level-id type="integer">1</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">470</id>
+    <name>Ядерная энергетика и теплофизика</name>
+    <code>14.03.01</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">500</id>
+    <name>Технология редких, рассеянных и радиоактивных элементов</name>
+    <code>05.17.02</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">501</id>
+    <name>Технология электрохимических процессов и защита от коррозии</name>
+    <code>05.17.03</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">502</id>
+    <name>Химическая технология топлива и высокоэнергетических веществ</name>
+    <code>05.17.07</code>
+    <level>Аспирантура</level>
+    <level-id type="integer">3</level-id>
+    <generation>ГОС2</generation>
+    <generation-id type="integer">0</generation-id>
+    <type>специальность</type>
+    <type-id type="integer">1</type-id>
+  </object>
+  <object>
+    <id type="integer">503</id>
+    <name>Фотоника и оптоинформатика</name>
+    <code>12.04.03</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">504</id>
+    <name>Биотехнические системы и технологии</name>
+    <code>12.03.04</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">505</id>
+    <name>Фотоника и оптоинформатика</name>
+    <code>12.03.03</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">506</id>
+    <name>Высокотехнологические плазменные и энергетические установки</name>
+    <code>16.03.02</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">507</id>
+    <name>Высокотехнологические плазменные и энергетические установки</name>
+    <code>16.04.02</code>
+    <level>Магистратура</level>
+    <level-id type="integer">2</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+  <object>
+    <id type="integer">508</id>
+    <name>Мехатроника и робототехника</name>
+    <code>15.03.06</code>
+    <level>Бакалавриат</level>
+    <level-id type="integer">0</level-id>
+    <generation>ФГОС3+</generation>
+    <generation-id type="integer">1</generation-id>
+    <type>направление</type>
+    <type-id type="integer">0</type-id>
+  </object>
+</objects>
