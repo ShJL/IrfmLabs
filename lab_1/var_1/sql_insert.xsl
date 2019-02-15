@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:template match="/">
+    <xsl:template match="/objects">
         <html>
             <head>
                 <meta charset="UTF-8"/>
@@ -8,7 +8,7 @@
             </head>
             <body>
                 <dl>
-                    <xsl:apply-templates select="objects/object"/>
+                    <xsl:apply-templates select="object"/>
                 </dl>
             </body>
         </html>
@@ -17,7 +17,7 @@
         <dl>
             <xsl:text>insert into specialities (</xsl:text>
                 <dd>
-                    <xsl:for-each select="./*[position()>1]">
+                    <xsl:for-each select="*[position()>1]">
                         <xsl:text>"</xsl:text>
                         <xsl:call-template name="replace">
                             <xsl:with-param name="string" select="name()"/>
@@ -25,23 +25,19 @@
                             <xsl:with-param name="replacement" select="'_'"/>
                         </xsl:call-template>
                         <xsl:text>"</xsl:text>
-                        <xsl:if test="position()&lt;last()"><xsl:text>, </xsl:text></xsl:if>
+                        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
                     </xsl:for-each>
                 </dd>
             <xsl:text>) values (</xsl:text>
-                <xsl:for-each select="./*[position()>1]">
+                <xsl:for-each select="*[position()>1]">
                     <dd>
                         <xsl:choose>
                             <xsl:when test="@nil='true'">
                                 <xsl:text>null</xsl:text>
                             </xsl:when>
                             <xsl:when test="@type='dateTime'">
-                                <xsl:text>timestamp'</xsl:text>
-                                <xsl:call-template name="replace">
-                                    <xsl:with-param name="string" select="."/>
-                                    <xsl:with-param name="search" select="'T'"/>
-                                    <xsl:with-param name="replacement" select="' '"/>
-                                </xsl:call-template>
+                                <xsl:text>date'</xsl:text>
+                                <xsl:value-of select="substring-before(., 'T')"/>
                                 <xsl:text>'</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
@@ -50,7 +46,7 @@
                                 <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="position()&lt;last()"><xsl:text>,</xsl:text></xsl:if>
+                        <xsl:if test="position()!=last()"><xsl:text>,</xsl:text></xsl:if>
                     </dd>
                 </xsl:for-each>
             <xsl:text>);</xsl:text>
