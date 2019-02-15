@@ -1,0 +1,33 @@
+{
+    "id": {
+        "Type": "integer",
+        "Null": "not null"
+    },
+    "name": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 11
+    },
+    "old-name": {
+        "Type": "string",
+        "Null": "null",
+        "MaxLen": 8
+    },
+    "term-number": {
+        "Type": "integer",
+        "Null": "not null"
+    },
+    "study-year": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 9
+    },
+    "created-at": {
+        "Type": "dateTime",
+        "Null": "not null"
+    },
+    "updated-at": {
+        "Type": "dateTime",
+        "Null": "not null"
+    }
+}
