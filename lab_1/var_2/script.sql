@@ -375,8 +375,7 @@ insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") 
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (438, 'Бухгалтерский учет, статистика', '08.00.12', 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (411, 'Теплофизика и теоретическая теплотехника', '01.04.14', 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (411, 'Приборы и методы экспериментальной физики; Теоретическая физика; Физика конденсированного состояния; Физика плазмы; Электрофизика, электрофизические установки; Теплофизика и теоретическая теплотехника; Физика атомного ядра и элементарных частиц; Физика пучков заряженных частиц и ускорительная техника; Лазерная физика; Физика высоких энергий', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (425, 'Системный анализ, управление и обработка информации;  Автоматизация и управление технологическими процессами и производствами;
-Математическое моделирование, численные методы и комплексы программ;Элементы и устройства вычислительной техники и систем управления; Математическое и программное обеспечение вычислительных машин, комплексов и компьютерных сетей', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (425, 'Системный анализ, управление и обработка информации;  Автоматизация и управление технологическими процессами и производствами; Математическое моделирование, численные методы и комплексы программ;Элементы и устройства вычислительной техники и систем управления; Математическое и программное обеспечение вычислительных машин, комплексов и компьютерных сетей', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (417, 'Теплофизика и теоретическая теплотехника', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (423, 'Информационно-измерительные и управляющие системы (по отраслям)', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (416, null, null, 'очная');
@@ -399,12 +398,7 @@ insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") 
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (448, 'Дифференциальные уравнения, динамические системы и оптимальное управление', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (453, 'Информационно-измерительные и управляющие системы (по отраслям)', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (461, 'Ядерные энергетические установки, включая проектирование, эксплуатацию и вывод из эксплуатации', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (425, 'Обработка информации, управление и математическое моделирование в сложных интеллектуальных системах;
-Математическое моделирование нелинейных задач в физике и технике;
-Интеллектуальные системы управления атомными станциями;
-Управление в социальных и экономических системах;
-Методы, модели, алгоритмы и программное обеспечение компьютерной обработки массивов данных;
-Современные наноэлектронные элементы и устройства вычислительной техники и систем управления', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (425, 'Обработка информации, управление и математическое моделирование в сложных интеллектуальных системах; Математическое моделирование нелинейных задач в физике и технике; Интеллектуальные системы управления атомными станциями; Управление в социальных и экономических системах; Методы, модели, алгоритмы и программное обеспечение компьютерной обработки массивов данных; Современные наноэлектронные элементы и устройства вычислительной техники и систем управления', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (434, 'Инженерная виртуализация ядерных объектов и процессов', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (446, 'Технологии разработка материалов для инновационных проектов в энергетике', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (423, 'Системы и концепции Мульти-Д управления ядерными установками', null, 'очная');
@@ -489,30 +483,20 @@ insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") 
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (395, 'Учёт и корпоративные финансы', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (390, 'Стратегический менеджмент и управление инновациями', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Ядерные физика и космофизика,  Физика элементарных частиц и космология', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика пучков заряженных частиц и ускорительная техника
-Медицинские ускорители заряженных частиц', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика пучков заряженных частиц и ускорительная техника Медицинские ускорители заряженных частиц', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Ядерно-физические методы солнечно-земной физики, Экспериментальные исследования и моделирование фундаментальных взаимодействий, Физика экстремальных состояний вещества', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, '"Материалы для энергетики", "Ядерные энерготехнологии", "Компьютерное инженерное моделирование"', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Nuclear Engineering', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Теплофизика ядерных энергетических установок
-Физика ядерных энергетических установок
-Радиационная безопасность человека и окружающей среды', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Теплофизика ядерных энергетических установок Физика ядерных энергетических установок Радиационная безопасность человека и окружающей среды', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (452, 'Лазерная физика', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Фемтосекундная лазерная физика и технологии
-Биомедицинская фотоника
-Углеродная фотоника', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Фемтосекундная лазерная физика и технологии Биомедицинская фотоника Углеродная фотоника', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (379, 'Физика кинетических явлений', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (459, '"Электроника и наноэлектроника"', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика неравновесных атомных систем и композитов (Физика разделения изотопных и молекулярных смесей,
-Прикладная ионная физика и масс-спектрометрия)', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика и нанотехнологии гетероструктурной электроники
-Физика микро- и наносистем', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Микро- и наноэлектронные приборы и системы для физических установок
-Электроника физических установок', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (338, 'Защищенные высокопроизводительные вычислительные системы
-Защищенные автоматизированные системы обработки информации и управления', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (367, 'Технологии разработки высококритичных кибернетических систем. Интеллектуальные системы и технологии
-Фундаментальные основы информационных технологий', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика неравновесных атомных систем и композитов (Физика разделения изотопных и молекулярных смесей, Прикладная ионная физика и масс-спектрометрия)', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика и нанотехнологии гетероструктурной электроники Физика микро- и наносистем', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Микро- и наноэлектронные приборы и системы для физических установок Электроника физических установок', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (338, 'Защищенные высокопроизводительные вычислительные системы Защищенные автоматизированные системы обработки информации и управления', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (367, 'Технологии разработки высококритичных кибернетических систем. Интеллектуальные системы и технологии Фундаментальные основы информационных технологий', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (355, 'Математическая физика. Математическое моделирование. Анализ и обработка данных.', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Информационные измерительные системы ядерных энергетических установок и техника радиационного эксперимента. Физика быстропротекающих процессов', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Ядерное и электрофизическое приборостроение (Электронные измерительные системы для физических установок, Ядерно-физические методы исследования свойств вещества)', null, 'очная');
@@ -532,33 +516,13 @@ insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") 
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (349, 'Государственно-правовая', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (400, 'Судебная экономическая экспертиза', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (307, 'Ядерное топливо и реакторное материаловедение', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Теплофизика ядерных энергетических установок
-Физика ядерных энергетических установок
-Радиационная безопасность человека и окружающей среды
-Системы автоматизации физических установок и их элементы', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Ядерные физика и космофизика
-Физика элементарных частиц и космология', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Теплофизика ядерных энергетических установок Физика ядерных энергетических установок Радиационная безопасность человека и окружающей среды Системы автоматизации физических установок и их элементы', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Ядерные физика и космофизика Физика элементарных частиц и космология', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Снежинск: Лазерная физика', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (448, 'Дифференциальные уравнения, динамические системы и оптимальное управление', '01.01.02', 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (425, 'Системный анализ, управление и обработка информации (по отраслям) ; Автоматизация и управление технологическими процессами и производствами (по отраслям);Математическое моделирование, численные методы и комплексы программ;Элементы и устройства вычислительной техники и систем управления; Математическое и программное обеспечение вычислительных машин, комплексов и компьютерных сетей', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (411, 'Биомедицинские технологии и приборы;
-Современные детекторы космических лучей;
-Теплофизика и теоретическая теплотехника;
-Физика конденсированного состояния;
-Физика экстремальных состояний материи;
-Физика конденсированного состояния в современной твердотельной электронике;
-Электрофизика, электрофизические установки;
-Физика пучков заряженных частиц и ускорительная техника;
-Физика плазмы;
-Лазерная физика;
-Углеродная фотоника;
-Теоретическая физика;
-Физика высоких энергий;
-Физика атомного ядра и элементарных частиц;
-Экспериментальные исследования и моделирование фундаментальных взаимодействий. Современные детекторы регистрации ядерных взаимодействий при высоких энергиях', null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (455, 'Фармацевтическая химия, фармакогнозия;
-Химическая физика, горение и взрыв,  физика экстремальных  состояний вещества;
-Радиохимия', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (411, 'Биомедицинские технологии и приборы; Современные детекторы космических лучей; Теплофизика и теоретическая теплотехника; Физика конденсированного состояния; Физика экстремальных состояний материи; Физика конденсированного состояния в современной твердотельной электронике; Электрофизика, электрофизические установки; Физика пучков заряженных частиц и ускорительная техника; Физика плазмы; Лазерная физика; Углеродная фотоника; Теоретическая физика; Физика высоких энергий; Физика атомного ядра и элементарных частиц; Экспериментальные исследования и моделирование фундаментальных взаимодействий. Современные детекторы регистрации ядерных взаимодействий при высоких энергиях', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (455, 'Фармацевтическая химия, фармакогнозия; Химическая физика, горение и взрыв,  физика экстремальных  состояний вещества; Радиохимия', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (436, 'Материалы и приборы функциональной твердотельной микро- и наноэлектроники на квантовых эффектах и новых принципах работы', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (448, 'Аналитическая теория нелинейных дифференциальных уравнений', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (338, 'Защищенные высокопроизводительные вычислительные системы', null, 'очная');
@@ -630,9 +594,7 @@ insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") 
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (469, null, null, 'заочная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (363, null, null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (470, null, null, 'очная');
-insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика и теплофизика инновационных ядерных энергетических установок;
-Радиационная безопасность человека и окружающей среды;
-Системы автоматизации физических установок и их элементы', null, 'очная');
+insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (308, 'Физика и теплофизика инновационных ядерных энергетических установок; Радиационная безопасность человека и окружающей среды; Системы автоматизации физических установок и их элементы', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (395, 'Учет и корпоративные финансы', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (360, 'Разработка материалов для инновационных технологий', null, 'очная');
 insert into a_groups ("speciality_id", "profile", "profile_code", "study_form") values (438, 'Экономика и управление народным хозяйством (по отраслям и сферам деятельности)', null, 'заочная');

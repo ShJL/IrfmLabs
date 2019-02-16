@@ -46,7 +46,11 @@
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
-                                <xsl:value-of select="."/>
+                                <xsl:call-template name="replace">
+                                    <xsl:with-param name="string" select="."/>
+                                    <xsl:with-param name="search" select="'&#xA;'"/>
+                                    <xsl:with-param name="replacement" select="' '"/>
+                                </xsl:call-template>
                                 <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
