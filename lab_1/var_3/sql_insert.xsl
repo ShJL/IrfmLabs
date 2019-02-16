@@ -36,7 +36,7 @@
                 <xsl:for-each select="*[position() > 1]">
                     <dd>
                         <xsl:choose>
-                            <xsl:when test="@nil = 'true'">
+                            <xsl:when test="@nil = 'true' or not(text())">
                                 <xsl:text>null</xsl:text>
                             </xsl:when>
                             <xsl:when test="@type = 'dateTime'">

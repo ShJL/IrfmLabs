@@ -35,7 +35,7 @@
             <xsl:text>) values (</xsl:text>
             <xsl:for-each select="*">
                     <xsl:choose>
-                        <xsl:when test="@nil = 'true'">
+                        <xsl:when test="@nil = 'true' or not(text())">
                             <xsl:text>null</xsl:text>
                         </xsl:when>
                         <xsl:when test="name() = 'id'">
