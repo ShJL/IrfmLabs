@@ -15,7 +15,7 @@
         <dl>
             <xsl:text>insert into specialities (</xsl:text>
                 <dd>
-                    <xsl:for-each select="*[position()>1]">
+                    <xsl:for-each select="*[position() > 1]">
                         <xsl:text>"</xsl:text>
                         <xsl:call-template name="replace">
                             <xsl:with-param name="string" select="name()"/>
@@ -23,28 +23,28 @@
                             <xsl:with-param name="replacement" select="'_'"/>
                         </xsl:call-template>
                         <xsl:text>"</xsl:text>
-                        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+                        <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
                     </xsl:for-each>
                 </dd>
             <xsl:text>) values (</xsl:text>
-                <xsl:for-each select="*[position()>1]">
+                <xsl:for-each select="*[position() > 1]">
                     <dd>
                         <xsl:choose>
-                            <xsl:when test="@nil='true'">
+                            <xsl:when test="@nil = 'true'">
                                 <xsl:text>null</xsl:text>
                             </xsl:when>
-                            <xsl:when test="@type='dateTime'">
+                            <xsl:when test="@type = 'dateTime'">
                                 <xsl:text>date'</xsl:text>
                                 <xsl:value-of select="substring-before(., 'T')"/>
                                 <xsl:text>'</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
+                                <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
                                 <xsl:value-of select="."/>
-                                <xsl:if test="@type='string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
+                                <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="position()!=last()"><xsl:text>, </xsl:text></xsl:if>
+                        <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
                     </dd>
                 </xsl:for-each>
             <xsl:text>);</xsl:text>
