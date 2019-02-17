@@ -8,22 +8,6 @@ create table plans (
 );
 
 
-create sequence seq_plans_id
-start with 1
-increment by 1
-nomaxvalue;
-
-
-create or replace trigger trig_plans_id
-before insert on plans
-for each row
-begin
-	select seq_plans_id.nextval
-	into :new."id"
-	from dual;
-end;
-
-
 insert all
 into plans ("id", "speciality_id", "profile", "profile_code", "study_form") values (12963, 308, 'Ядерные физика и космофизика', null, 'очная')
 into plans ("id", "speciality_id", "profile", "profile_code", "study_form") values (12964, 308, 'Физика конденсированного состояния и наноструктур', null, 'очная')

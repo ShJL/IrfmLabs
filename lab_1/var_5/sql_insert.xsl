@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:key name="unique"
         match="object"
-        use="concat(profile-code, profile, study-form, speciality-id)"
+        use="concat(study-form, profile, profile-code, speciality-id)"
     />
     <xsl:template match="/objects">
         <html>
@@ -12,7 +12,7 @@
             </head>
             <body>
                 <xsl:text>insert all</xsl:text>
-                    <xsl:apply-templates select="object[count(. | key('unique', concat(profile-code, profile, study-form, speciality-id))[1]) = 1]"/>
+                    <xsl:apply-templates select="object[count(. | key('unique', concat(study-form, profile, profile-code, speciality-id))[1]) = 1]"/>
                 <xsl:text>from dual;</xsl:text>
             </body>
         </html>
