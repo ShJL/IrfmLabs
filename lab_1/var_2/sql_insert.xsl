@@ -2,24 +2,22 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:key name="unique"
         match="object"
-        use="concat(speciality-id, profile, profile-code, study-form)"
+        use="concat(profile, study-form, speciality-id, profile-code)"
     />
     <xsl:template match="/objects">
         <html>
             <head>
                 <meta charset="UTF-8"/>
-                <title>Вставка данных в таблицу a_groups</title>
+                <title>Вставка данных в таблицу plans</title>
             </head>
             <body>
-                <xsl:apply-templates
-                    select="object[count(. | key('unique', concat(speciality-id, profile, profile-code, study-form))[1]) = 1]"
-                />
+                <xsl:apply-templates select="object[count(. | key('unique', concat(profile, study-form, speciality-id, profile-code))[1]) = 1]"/>
             </body>
         </html>
     </xsl:template>
     <xsl:template match="object">
         <dl>
-            <xsl:text>insert into a_groups (</xsl:text>
+            <xsl:text>insert into plans (</xsl:text>
                 <dd>
                     <xsl:for-each select="*[position() > 1]">
                         <xsl:text>"</xsl:text>

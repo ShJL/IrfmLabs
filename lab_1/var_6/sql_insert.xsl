@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:key name="unique"
         match="another-students-db-a-group"
-        use="concat(name, old-name, term-number, study-year, created-at, updated_at)"
+        use="concat(study-year, created-at, name, old-name, updated-at, term-number)"
     />
     <xsl:template match="/another-students-db-a-groups">
         <html>
@@ -12,9 +12,7 @@
             </head>
             <body>
                 <xsl:text>insert all</xsl:text>
-                <xsl:apply-templates
-                    select="another-students-db-a-group[count(. | key('unique', concat(name, old-name, term-number, study-year, created-at, updated_at))[1]) = 1]"
-                />
+                    <xsl:apply-templates select="another-students-db-a-group[count(. | key('unique', concat(study-year, created-at, name, old-name, updated-at, term-number))[1]) = 1]"/>
                 <xsl:text>from dual;</xsl:text>
             </body>
         </html>
@@ -34,29 +32,29 @@
             </xsl:for-each>
             <xsl:text>) values (</xsl:text>
             <xsl:for-each select="*">
-                    <xsl:choose>
-                        <xsl:when test="@nil = 'true' or not(text())">
-                            <xsl:text>null</xsl:text>
-                        </xsl:when>
-                        <xsl:when test="name() = 'id'">
-                            <xsl:value-of select=". + 10000"/>
-                        </xsl:when>
-                        <xsl:when test="@type = 'dateTime'">
-                            <xsl:text>date'</xsl:text>
-                            <xsl:value-of select="substring-before(., 'T')"/>
-                            <xsl:text>'</xsl:text>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
-                            <xsl:call-template name="replace">
-                                <xsl:with-param name="string" select="."/>
-                                <xsl:with-param name="search" select="'&#xA;'"/>
-                                <xsl:with-param name="replacement" select="' '"/>
-                            </xsl:call-template>
-                            <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
-                        </xsl:otherwise>
-                    </xsl:choose>
-                    <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
+                <xsl:choose>
+                    <xsl:when test="@nil = 'true' or not(text())">
+                        <xsl:text>null</xsl:text>
+                    </xsl:when>
+                    <xsl:when test="name() = 'id'">
+                        <xsl:value-of select=". + 10000"/>
+                    </xsl:when>
+                    <xsl:when test="@type = 'dateTime'">
+                        <xsl:text>date'</xsl:text>
+                        <xsl:value-of select="substring-before(., 'T')"/>
+                        <xsl:text>'</xsl:text>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
+                        <xsl:call-template name="replace">
+                            <xsl:with-param name="string" select="."/>
+                            <xsl:with-param name="search" select="'&#xA;'"/>
+                            <xsl:with-param name="replacement" select="' '"/>
+                        </xsl:call-template>
+                        <xsl:if test="@type = 'string' or not(@type)"><xsl:text>'</xsl:text></xsl:if>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="position() != last()"><xsl:text>, </xsl:text></xsl:if>
             </xsl:for-each>
             <xsl:text>)</xsl:text>
         </dl>

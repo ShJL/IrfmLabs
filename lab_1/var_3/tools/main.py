@@ -4,5 +4,4 @@ sys.path.append("../../tools")
 import laba
 
 
-laba.process("../a_groups.xml", "../script.sql")
-laba.add_inserts("../a_groups.xml", "../sql_insert.xsl", "../script.sql")
+laba.run_all("../a_groups.xml", "../sql_insert.xsl", "../script.sql", duplicates=False)

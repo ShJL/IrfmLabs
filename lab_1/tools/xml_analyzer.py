@@ -25,4 +25,4 @@ def xml_analyzer(file_name):
     for field, vals in filter(lambda kv: 2 <= len(kv[1]) <= 5, unique_values.items()):
         parameters[field]["Check"] = sorted(vals)
 
-    return parameters
+    return parameters, objects.tag, objects[0].tag
