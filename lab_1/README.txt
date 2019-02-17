@@ -15,7 +15,7 @@
         insert="single",     # создать один insert для всех записей(insert all), default: "multi"
         duplicates=False,    # оставить дубликаты записей, default: True
         id=True,             # брать значение поля id из xml, default: False
-        inc=10000            # насколько увеличивать id, если id=True
+        inc=10000            # на сколько увеличивать id, если id=True
     )
 
 
