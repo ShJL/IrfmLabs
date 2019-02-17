@@ -1,0 +1,30 @@
+{
+    "id": {
+        "Type": "integer",
+        "Null": "not null"
+    },
+    "speciality-id": {
+        "Type": "integer",
+        "Null": "not null"
+    },
+    "profile": {
+        "Type": "string",
+        "Null": "null",
+        "MaxLen": 672
+    },
+    "profile-code": {
+        "Type": "string",
+        "Null": "null",
+        "MaxLen": 8
+    },
+    "study-form": {
+        "Type": "string",
+        "Null": "not null",
+        "MaxLen": 12,
+        "Check": [
+            "заочная",
+            "очная",
+            "очно-заочная"
+        ]
+    }
+}
