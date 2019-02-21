@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:key name="unique"
         match="another-students-db-a-group"
-        use="concat(updated-at, name, created-at, study-year, term-number, old-name)"
+        use="concat(study-year, term-number, old-name, updated-at, name, created-at)"
     />
     <xsl:template match="/another-students-db-a-groups">
         <html>
@@ -11,7 +11,7 @@
                 <title>Вставка данных в таблицу a_groups</title>
             </head>
             <body>
-                <xsl:apply-templates select="another-students-db-a-group[count(. | key('unique', concat(updated-at, name, created-at, study-year, term-number, old-name))[1]) = 1]"/>
+                <xsl:apply-templates select="another-students-db-a-group[count(. | key('unique', concat(study-year, term-number, old-name, updated-at, name, created-at))[1]) = 1]"/>
             </body>
         </html>
     </xsl:template>
@@ -19,7 +19,7 @@
         <dl>
             <xsl:text>insert into a_groups (</xsl:text>
                 <dd>
-                    <xsl:for-each select="*[position() > 1]">
+                    <xsl:for-each select="*[name() != 'id']">
                         <xsl:text>"</xsl:text>
                         <xsl:call-template name="replace">
                             <xsl:with-param name="string" select="name()"/>
@@ -31,7 +31,7 @@
                     </xsl:for-each>
                 </dd>
             <xsl:text>) values (</xsl:text>
-                <xsl:for-each select="*[position() > 1]">
+                <xsl:for-each select="*[name() != 'id']">
                     <dd>
                         <xsl:choose>
                             <xsl:when test="@nil = 'true' or not(text())">

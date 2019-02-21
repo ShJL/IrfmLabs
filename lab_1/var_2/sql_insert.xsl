@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:key name="unique"
         match="object"
-        use="concat(profile, study-form, speciality-id, profile-code)"
+        use="concat(study-form, speciality-id, profile, profile-code)"
     />
     <xsl:template match="/objects">
         <html>
@@ -11,7 +11,7 @@
                 <title>Вставка данных в таблицу plans</title>
             </head>
             <body>
-                <xsl:apply-templates select="object[count(. | key('unique', concat(profile, study-form, speciality-id, profile-code))[1]) = 1]"/>
+                <xsl:apply-templates select="object[count(. | key('unique', concat(study-form, speciality-id, profile, profile-code))[1]) = 1]"/>
             </body>
         </html>
     </xsl:template>
@@ -19,7 +19,7 @@
         <dl>
             <xsl:text>insert into plans (</xsl:text>
                 <dd>
-                    <xsl:for-each select="*[position() > 1]">
+                    <xsl:for-each select="*[name() != 'id']">
                         <xsl:text>"</xsl:text>
                         <xsl:call-template name="replace">
                             <xsl:with-param name="string" select="name()"/>
@@ -31,7 +31,7 @@
                     </xsl:for-each>
                 </dd>
             <xsl:text>) values (</xsl:text>
-                <xsl:for-each select="*[position() > 1]">
+                <xsl:for-each select="*[name() != 'id']">
                     <dd>
                         <xsl:choose>
                             <xsl:when test="@nil = 'true' or not(text())">

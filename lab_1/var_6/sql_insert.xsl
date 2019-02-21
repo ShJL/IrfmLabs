@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:key name="unique"
         match="another-students-db-a-group"
-        use="concat(study-year, created-at, name, old-name, updated-at, term-number)"
+        use="concat(name, updated-at, created-at, term-number, study-year, old-name)"
     />
     <xsl:template match="/another-students-db-a-groups">
         <html>
@@ -12,7 +12,7 @@
             </head>
             <body>
                 <xsl:text>insert all</xsl:text>
-                    <xsl:apply-templates select="another-students-db-a-group[count(. | key('unique', concat(study-year, created-at, name, old-name, updated-at, term-number))[1]) = 1]"/>
+                    <xsl:apply-templates select="another-students-db-a-group[count(. | key('unique', concat(name, updated-at, created-at, term-number, study-year, old-name))[1]) = 1]"/>
                 <xsl:text>from dual;</xsl:text>
             </body>
         </html>

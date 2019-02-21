@@ -15,7 +15,7 @@
         <dl>
             <xsl:text>insert into specialities (</xsl:text>
                 <dd>
-                    <xsl:for-each select="*[position() > 1]">
+                    <xsl:for-each select="*[name() != 'id']">
                         <xsl:text>"</xsl:text>
                         <xsl:call-template name="replace">
                             <xsl:with-param name="string" select="name()"/>
@@ -27,7 +27,7 @@
                     </xsl:for-each>
                 </dd>
             <xsl:text>) values (</xsl:text>
-                <xsl:for-each select="*[position() > 1]">
+                <xsl:for-each select="*[name() != 'id']">
                     <dd>
                         <xsl:choose>
                             <xsl:when test="@nil = 'true' or not(text())">

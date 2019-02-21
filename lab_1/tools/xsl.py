@@ -179,7 +179,7 @@ def generate_xsl(
     indent = 4 if insert == "multi" else 2
     insert_body = (__DOC_INDIVIDUAL_INSERT if insert == "multi" else __DOC_SINGLE_INSERT).format(
         table=table_name,
-        path="*" if id else "*[position() > 1]",
+        path="*" if id else "*[name() != 'id']",
         name=__shift(__DOC_FIELD_NAME, indent),
         value=__shift(__DOC_FIELD_VALUE.format(id=__shift(__DOC_ID_VALUE.format(inc=inc) if id else "")), indent)
     )
