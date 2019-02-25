@@ -1,4 +1,4 @@
-1. скачать всю папку ./tools
+﻿1. скачать всю папку ./tools
 2. написать скрипт(аналог var_*/tools/main.py)
 
 
@@ -13,7 +13,7 @@
         "path-to-file.sql",  # путь для создания файла sql
         create_seq=False,    # создать последовательность в sql, default: True
         insert="single",     # создать один insert для всех записей(insert all), default: "multi"
-        duplicates=False,    # оставить дубликаты записей, default: True
+        duplicates=False,    # оставить дубликаты записей(то False), default: True
         id=True,             # брать значение поля id из xml, default: False
         inc=10000            # на сколько увеличивать id, если id=True
     )
