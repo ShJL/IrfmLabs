@@ -32,7 +32,15 @@ print(data_size)
 print("task C:")
 
 table_size_c = laba.task_c(
-    db_connection, table_name, condition="iday = 0 or iyear = 0 or imonth = 0"
+    db_connection,
+    table_name,
+    condition="""
+        iday not between 1 and 31
+        or iyear not between 1900 and 2019
+        or imonth not between 1 and 12
+        or latitude not between 0 and 90
+        or longitude not between 0 and 180
+    """
 )
 print(table_size_c)
 
