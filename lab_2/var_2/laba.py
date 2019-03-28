@@ -20,7 +20,7 @@ def task_ab(db, file_name, columns, add_columns):
         data[col_name] = gen_func(data)
 
     table_name = os.path.splitext(os.path.basename(file_name))[0]
-    body = ", ".join(
+    body = "id integer primary key autoincrement," + ",".join(
         map(" ".join, zip(data.columns, data.dtypes.apply(lambda x: python2sqlite(x.name))))
     )
 
