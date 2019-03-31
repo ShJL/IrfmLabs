@@ -7,22 +7,22 @@
     <body>
         <h2>API Tutorial</h2>
         <ul>
-            <li><a href="/api/gtd/">/api/gtd/</a> - просмотр списка всех объектов (метод GET)</li>
+            <li><a href="{{ api_prefix }}/">{{ api_prefix }}/</a> - просмотр списка всех объектов (метод GET)</li>
             <br>
-            <li><a href="/api/gtd/1">/api/gtd/{id}</a> - просмотра одного объекта по ключевым значениям (метод GET)</li>
+            <li><a href="{{ api_prefix }}/13">{{ api_prefix }}/{id}</a> - просмотра одного объекта по ключевым значениям (метод GET)</li>
             <br>
             <li>
                 <ul>
-                    <li>/api/gtd?{params} - добавления нового объекта (метод POST)</li>
-                    <li>/api/gtd/{id}?{params} - добавление нового объекта (метод POST)</li>
+                    <li>{{ api_prefix }}?{params} - добавления нового объекта (метод POST)</li>
+                    <li>{{ api_prefix }}/{id}?{params} - добавление нового объекта (метод POST)</li>
                 </ul>
             </li>
             <br>
-            <li>/api/gtd/{id}?{params} - редактирования объекта (метод PUT)</li>
+            <li>{{ api_prefix }}/{id}?{params} - редактирования объекта (метод PUT)</li>
             <br>
-            <li>/api/gtd/{id} - удаление объекта (метод DELETE)</li>
+            <li>{{ api_prefix }}/{id} - удаление объекта (метод DELETE)</li>
             <br>
-            <li><a href="/api/gtd/number/1">/api/gtd/number/{month}</a> - просмотр общего числа терактов в определённый месяц года (1..12) (метод GET)</li>
+            <li><a href="{{ api_prefix }}/number/1">{{ api_prefix }}/number/{month}</a> - просмотр общего числа терактов в определённый месяц года (1..12) (метод GET)</li>
         </ul>
     </body>
 </html>

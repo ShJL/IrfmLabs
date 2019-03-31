@@ -48,7 +48,7 @@ _GTD_PREFIX = "/api/gtd"
 
 @app.route("/api/")
 def api_index():
-    return flask.render_template("index.html")
+    return flask.render_template("index.html", api_prefix=_GTD_PREFIX)
 
 
 @app.route(_GTD_PREFIX + "/", methods=["GET"])
