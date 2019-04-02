@@ -1,4 +1,4 @@
-DATABASE = "db\\gtd.db"
+DATABASE = "db/gtd.db"
 
 SQL_TABLE = "gtd"
 
