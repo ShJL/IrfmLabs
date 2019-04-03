@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>API</title>
+    </head>
+    <body>
+        <h2>API Tutorial</h2>
+        <ul>
+            <li><a href="{{ api_prefix }}/">{{ api_prefix }}/</a> - просмотр списка всех объектов (метод GET)</li>
+            <br>
+            <li><a href="{{ api_prefix }}/100">{{ api_prefix }}/{id}</a> - просмотра одного объекта по ключевым значениям (метод GET)</li>
+            <br>
+            <li>
+                <ul>
+                    <li>{{ api_prefix }}?{params} - добавления нового объекта (метод POST)</li>
+                    <li>{{ api_prefix }}/{id}?{params} - добавление нового объекта (метод POST)</li>
+                </ul>
+            </li>
+            <br>
+            <li>{{ api_prefix }}/{id}?{params} - редактирования объекта (метод PUT)</li>
+            <br>
+            <li>{{ api_prefix }}/{id} - удаление объекта (метод DELETE)</li>
+            <br>
+            <li><a href="{{ api_prefix }}/number/male">{{ api_prefix }}/number/{gender}</a> - просмотр суммарного числа людей определённого пола, участвовавших в опросе (male, female) (метод GET)</li>
+        </ul>
+    </body>
+</html>
