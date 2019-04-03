@@ -43,6 +43,10 @@ def _extend_params(args):
     return params
 
 
+def _placeholders(fields):
+    return tuple((f":{field}" for field in fields))
+
+
 _GTD_PREFIX = "/api/gtd"
 
 
@@ -71,24 +75,23 @@ def gtd_show(obj_id):
 def gtd_create(obj_id=None):
     args = _extend_params(flask.request.args)
 
-    add_col = tuple()
-    add_ph = tuple()
     if obj_id is not None:
         args["id"] = obj_id
-        add_col = ("id",)
-        add_ph = (":id",)
 
     _query_db(
         f"""insert into {sc.SQL_TABLE}
-            ({','.join(sc.SQL_COLUMNS + add_col)})
+            ({','.join(args.keys())})
         values
-            ({','.join(sc.SQL_PLACEHOLDERS + add_ph)})""",
+            ({','.join(_placeholders(args.keys()))})""",
         args,
         False
     )
 
     if obj_id is None:
-        obj_id = _query_db(f"select id from {sc.SQL_TABLE} where rowid = last_insert_rowid()")[0]["id"]
+        obj_id = _query_db(
+            f"select id from {sc.SQL_TABLE} where rowid = last_insert_rowid()"
+        )[0]["id"]
+
     return _response("create", obj_id, _OK)
 
 
@@ -97,11 +100,13 @@ def gtd_update(obj_id):
     if not _exists(obj_id):
         flask.abort(_NOT_FOUND)
 
-    args = _extend_params(flask.request.args)
+    args = flask.request.args.to_dict()
     args["id"] = obj_id
 
     _query_db(
-        f"update {sc.SQL_TABLE} set {','.join(sc.SQL_FULL_MATCHING)} where id = :id",
+        f"""update {sc.SQL_TABLE}
+        set {','.join(map('='.join, zip(args.keys(), _placeholders(args.keys()))))}
+        where id = :id""",
         args,
         False
     )

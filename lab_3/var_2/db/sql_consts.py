@@ -3,6 +3,7 @@ DATABASE = "db/gtd.db"
 SQL_TABLE = "gtd"
 
 SQL_COLUMNS = (
+    "id",
     "iyear",
     "imonth",
     "iday",
@@ -12,7 +13,3 @@ SQL_COLUMNS = (
     "longitude",
     "accident_date"
 )
-
-SQL_PLACEHOLDERS = tuple((f":{field}" for field in SQL_COLUMNS))
-
-SQL_FULL_MATCHING = tuple(map("=".join, zip(SQL_COLUMNS, SQL_PLACEHOLDERS)))
