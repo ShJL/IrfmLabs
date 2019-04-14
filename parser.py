@@ -1,3 +1,4 @@
+from openpyxl import load_workbook
 import pandas as pd
 import requests
 
@@ -19,17 +20,21 @@ import requests
     2460066195: "ПАО РусГидро",
 }
 
+#################################### КОНЕЦ ####################################
+
+
+ПОЗИЦИИ_БАЛАНСА = [(3 + 25 * i, "D") for i in range(len(ИНН_КОМПАНИЯ))]
 
 ДАННЫЕ_КОМПАНИИ = {
-    2460066195: (1, "A"), # (номер строки, буква столбца)
+    инн: ПОЗИЦИИ_БАЛАНСА[i] for i, инн in enumerate(ИНН_КОМПАНИЯ.keys())
 }
 
+
+ПОЗИЦИИ_ЧИСТОЙ_ПРИБЫЛИ = [(5 + 5 * i, "D") for i in range(len(ИНН_КОМПАНИЯ))]
 
 ЧИСТАЯ_ПРИБЫЛЬ_КОМПАНИИ = {
-    2460066195: (5, "C"), # (номер строки, буква столбца)
+    инн: ПОЗИЦИИ_ЧИСТОЙ_ПРИБЫЛИ[i] for i, инн in enumerate(ИНН_КОМПАНИЯ.keys())
 }
-
-#################################### КОНЕЦ ####################################
 
 
 ПОКАЗАТЕЛЬ_КОД = {
@@ -77,6 +82,9 @@ for инн in ИНН_КОМПАНИЯ.keys():
 
 
 with pd.ExcelWriter(НАЗВАНИЕ_EXCEL_ФАЙЛА) as writer:
+    writer.book = load_workbook(НАЗВАНИЕ_EXCEL_ФАЙЛА)
+    writer.sheets = {ws.title: ws for ws in writer.book.worksheets}
+
     pd.Series(ИНН_КОМПАНИЯ).to_excel(
         writer,
         sheet_name="Бениш и Роксас (US)",
